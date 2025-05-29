@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>Mai Ashour</title>
+  <style>
+    body {
+      background-image: url('https://i.imgur.com/YOUR_BACKGROUND_IMAGE.jpg'); /* غيّري الرابط لصورة حقيقية */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      color: white;
+    }
+
+    img {
+      width: 200px;
+      border-radius: 15px;
+      margin-top: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px;
+      background-color: #800000;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #a00000;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>أهلاً بكم في موقع مي عاشور</h1>
+
+  <img src="https://i.imgur.com/YOUR_PROFILE_IMAGE.jpg" alt="Mai Photo"> <!-- غيّري الرابط -->
+
+  <p>تابعوني من خلال الروابط التالية:</p>
+
+  <a class="button" href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+  <a class="button" href="https://github.com/yourusername" target="_blank">GitHub</a>
+  <a class="button" href="mailto:youremail@example.com">Email</a>
+
+</body>
+</html>
